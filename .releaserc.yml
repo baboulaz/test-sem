@@ -7,3 +7,4 @@ plugins:
 branches:
 - "master"
 - "main"
+skipTag: true
