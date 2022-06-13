@@ -1,0 +1,19 @@
+{
+  "name": "test-sem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
+  },
+  "dependencies": {
+    "@baboulaz/semantic-release-gitlab-mr-label": "^1.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/gitlab": "^9.3.2"
+  }
+}

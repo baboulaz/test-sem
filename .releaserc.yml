@@ -1,0 +1,9 @@
+plugins:
+- "@semantic-release/commit-analyzer"
+- "@baboulaz/semantic-release-gitlab-mr-label"
+- "@semantic-release/release-notes-generator"
+- - "@semantic-release/exec"
+  - verifyReleaseCmd: "echo ${nextRelease.version} > VERSION.txt"
+branches:
+- "master"
+- "main"
