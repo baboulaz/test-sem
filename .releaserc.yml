@@ -2,9 +2,13 @@ plugins:
 - "@semantic-release/commit-analyzer"
 - "@baboulaz/semantic-release-gitlab-mr-label"
 - "@semantic-release/release-notes-generator"
+- - "@semantic-release/changelog"
+  - changelogFile: CHANGELOG.md
 - - "@semantic-release/exec"
   - verifyReleaseCmd: "echo ${nextRelease.version} > VERSION.txt"
 branches:
 - "master"
 - "main"
 skipTag: true
+ci: false
+dryRun: false
